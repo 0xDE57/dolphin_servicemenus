@@ -15,19 +15,23 @@ See Docs: https://develop.kde.org/docs/apps/dolphin/service-menus/
     * action: Convert Image to JPEG (new file)
     * action: Convert Image to PNG (new file)
     * dependency: **imagemagic**
- * `exifTool.deskstop`
-    * action: View Exif Data (opens terminal)
-        * Note: Terminal launch expects konsole as default. You may have to replace the command for your prefered terminal.
-    * action: Remove Exif Data (overwrites existing file)
-    * dependency: **ExifTool**
-    * Note: ExifTool supports many filetypes: https://exiftool.org/exiftool_pod.html
  * `convertVideo.desktop`
     * action: Convert to GIF (new file)
     * action: Convert to MVK (new file)
     * action: Convert to MOV (new file)
     * action: Convert to MP4 (new file)
     * dependency: **ffmpeg**
-
+* `exifTool.deskstop`
+    * action: View Exif Data (opens terminal)
+        * Note: Terminal launch expects konsole as default. You may have to replace the command for your prefered terminal.
+    * action: Remove Exif Data (overwrites existing file)
+    * dependency: **ExifTool**
+    * Note: ExifTool supports many filetypes: https://exiftool.org/exiftool_pod.html
+ * `checkHash.deskstop`
+    * action: md5sum (terminal)
+    * action: sha1sum (terminal)
+    * action: sha256sum (terminal)
+    * dependency: **md5sum sha1sum sha256sum** (likely already installed by most distros)
  
 ## Tips:
 You can add your own entries to extend or customize the arguments passed to the utilities.
