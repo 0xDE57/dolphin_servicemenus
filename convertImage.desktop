@@ -1,0 +1,15 @@
+[Desktop Entry]
+Type=Service
+MimeType=image/*;
+Actions=convertToPNG;convertToJPG
+X-KDE-Submenu=Convert Image
+
+[Desktop Action convertToPNG]
+Name=Convert -> PNG
+Icon=background
+Exec=magick %u %u.png
+
+[Desktop Action convertToJPG]
+Name=Convert -> JPEG
+Icon=background
+Exec=magick %u %u.jpeg
