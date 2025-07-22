@@ -36,5 +36,4 @@ To view output from the terminal without the terminal automatically closing, we 
 `konsole --noclose -e <command>`
 
 More service menus can be found:
-* https://codeberg.org/ZRayEntertainment/kde-service-menus
 * https://store.kde.org/browse?cat=102&ord=latest
