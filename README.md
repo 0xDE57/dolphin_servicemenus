@@ -27,7 +27,7 @@ See Docs: https://develop.kde.org/docs/apps/dolphin/service-menus/
     * action: Remove Exif Data (overwrites existing file)
     * dependency: **ExifTool**
     * Note: ExifTool supports many filetypes: https://exiftool.org/exiftool_pod.html
- * `checkHash.deskstop`
+ * `checksum.deskstop`
     * action: md5sum (terminal)
     * action: sha1sum (terminal)
     * action: sha256sum (terminal)
