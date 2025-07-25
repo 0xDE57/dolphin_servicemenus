@@ -1,5 +1,5 @@
 # dolphin_servicemenus
-Right-Click Utilities for KDE Dolphin service menus. These files add new actions to the right-click menu's for Dolphin file explorer. These commands simply pass the file or folder as an argument to common utilies to solve various common tasks.
+Right-Click Utilities for KDE Dolphin service menus. These files add new actions to the right-click menu's for Dolphin file explorer. These commands simply pass the file or folder as an argument to common utilities to solve various common tasks.
 
 See Docs: https://develop.kde.org/docs/apps/dolphin/service-menus/
 
