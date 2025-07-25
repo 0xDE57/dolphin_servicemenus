@@ -31,7 +31,7 @@ See Docs: https://develop.kde.org/docs/apps/dolphin/service-menus/
     * action: md5sum (terminal)
     * action: sha1sum (terminal)
     * action: sha256sum (terminal)
-    * dependency: **md5sum sha1sum sha256sum**
+    * dependencies: **md5sum sha1sum sha256sum**
         * likely already installed by many distros
  
 ## Tips:
