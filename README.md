@@ -24,7 +24,7 @@ See Docs: https://develop.kde.org/docs/apps/dolphin/service-menus/
 * `exifTool.deskstop`
     * action: View Exif Data (opens terminal)
         * Note: Terminal launch expects konsole as default. You may have to replace the command for your prefered terminal.
-    * action: Remove Exif Data (overwrites existing file)
+    * action: Remove Exif Data (new file + rename file _original)
     * dependency: **ExifTool**
     * Note: ExifTool supports many filetypes: https://exiftool.org/exiftool_pod.html
  * `checksum.deskstop`
